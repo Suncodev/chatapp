@@ -1,1 +1,1 @@
-# chatapp
+# Aplikasi sederhana menggunakan Bahasa Java
