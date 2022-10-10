@@ -1,15 +1,15 @@
 class Message {
 
-private String Message;
-public  String showInbox;
+    private Account account;
+    private String message;
 
-        Message (String InputMessage){
+    public Message(Account account, String message){
 
-            Message = InputMessage;
-        }
+        this.account = account;
+        this.message = message;
+    }
 
-        public void setShowInbox(String showInbox) {
-            this.showInbox = showInbox;
-        }
-
+    public String getMessage(){
+        return this.message;
+    }
 }

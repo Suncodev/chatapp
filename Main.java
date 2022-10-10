@@ -1,17 +1,11 @@
 public class Main {
-
     public static void main(String[] args) {
         
-        Account nizar = new Account("Nizar");
-        Account fadilah = new Account("Fadilah");
+        Account nizar = new Account("Nizar Fadilah");
+        Message message = new Message(nizar, "Ini Pesan");
 
-        nizar.sendMessage(fadilah,"Halo Nizar apa kabar ? ");
-        fadilah.sendMessage(nizar, "Halo fadilah kabar baik");
+        System.out.println(nizar.getName());
+        System.out.println(message.getMessage());
 
-        // nizar.sendMessage(fadilah, "Halo Fadilah apa kabar ?");
-        // fadilah.sendMessage(nizar, "Halo Nizar apa kabar");    
-    
     }
-
 }
-    
